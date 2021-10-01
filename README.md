@@ -1,2 +1,2 @@
 # GbgAirQuality
-Kotlin project by noobs
+Kotlin project by noobs measuring the awesome air quality in Gothenburg

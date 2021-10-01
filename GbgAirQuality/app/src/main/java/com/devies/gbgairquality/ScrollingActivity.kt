@@ -40,7 +40,8 @@ class ScrollingActivity : AppCompatActivity() {
         // as you specify a parent activity in AndroidManifest.xml.
 
         if (item.itemId == R.id.action_airQuality){
-
+            val intent = Intent(this, AirQualityActivity::class.java)
+            startActivity(intent)
         }
 
         return when (item.itemId) {

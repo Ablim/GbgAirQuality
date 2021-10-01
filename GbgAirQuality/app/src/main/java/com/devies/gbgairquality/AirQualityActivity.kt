@@ -10,9 +10,8 @@ class AirQualityActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_air_quality)
 
-
-
-        var airText = findViewById<TextView>(R.id.airQualityText)
-        airText.setText("My Awesome Text")
+        val url = "https://catalog.goteborg.se/rowstore/dataset/cb541050-487e-4eea-b7b6-640d58f28092"
+        val client = AirQualityClient()
+        client.getData(url)
     }
 }
